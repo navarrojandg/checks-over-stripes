@@ -34,7 +34,7 @@ while len(nike_accounts) < number_of_accounts:
     j += 1
     
 filename = "{}-checks-over-stripes.txt".format(datetime.datetime.now().strftime("%m%d%y"))
-print('writing accounts to file: [{}]'.format(filename))
+print('writing accounts to file: [/user/{}]'.format(filename))
 with open("./user/{}".format(filename), "a+") as f:
     for acc in nike_accounts:
         f.write(acc + '\n')
