@@ -31,3 +31,6 @@ run this command in the folder in order to start the account creation process
 ```
 python main.py
 ```
+enter in how many accounts you would like to create.
+do not touch anything and just let it run even if you see an error.
+after all is done your accounts [email:password] to a file in the /user/ folder.
