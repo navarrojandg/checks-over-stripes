@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from config import config
 
 
-class NikeAccount():
+class NikeAccount:
     # _name is a tuple with (first,last)
     # _dob is a tuple with (month,day,year)
     def __init__(self, _name, _dob, _id, _proxy=None):
